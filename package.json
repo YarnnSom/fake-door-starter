@@ -1,4 +1,7 @@
 {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
   "name": "fake-door-starter",
   "version": "1.0.0",
   "description": "## Fork",
