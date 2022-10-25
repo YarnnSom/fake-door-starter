@@ -1,7 +1,12 @@
+@import url("../css/reset.css");
+
 html {
   box-sizing: border-box;
 }
-*, *::before, *::after {
+
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -27,7 +32,7 @@ body {
 
 h1 {
   font-size: 3rem;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);  
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   margin-bottom: 2rem;
   text-align: center;
   font-weight: bold;
@@ -40,7 +45,7 @@ a {
 }
 
 
-body > * {
+body>* {
   grid-row: 1;
   grid-column: 1;
 }
@@ -73,7 +78,9 @@ form {
   }
 }
 
-@media screen and (min-width: 250px) and (min-resolution: 2dppx){  /* x2 and one step up */
+@media screen and (min-width: 250px) and (min-resolution: 2dppx) {
+
+  /* x2 and one step up */
   body {
     background-image: url("../assets/img/ph-750.jpeg");
   }
@@ -100,7 +107,7 @@ form {
   }
 }
 
-@media screen and (min-width: 750px)  and (min-resolution: 2dppx){
+@media screen and (min-width: 750px) and (min-resolution: 2dppx) {
   body {
     background-image: url("../assets/img/ph-2000.jpeg");
   }
@@ -113,7 +120,7 @@ form {
   }
 }
 
-@media screen and (min-width: 1000px) and (min-resolution: 2dppx){
+@media screen and (min-width: 1000px) and (min-resolution: 2dppx) {
   body {
     background-image: url("../assets/img/ph-2500.jpeg");
   }
@@ -127,7 +134,9 @@ form {
   }
 }
 
-@media screen and (min-width: 1500px) and (min-resolution: 2dppx){ /* we have to stop somewhere...*/
+@media screen and (min-width: 1500px) and (min-resolution: 2dppx) {
+
+  /* we have to stop somewhere...*/
   body {
     background-image: url("../assets/img/ph-2500.jpeg");
   }

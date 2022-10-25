@@ -1,4 +1,5 @@
-import JSConfetti from "../node_modules/js-confetti/dist/es/index.js"
+import "../css/style.css";
+import JSConfetti from 'js-confetti';
 const init = () => {
   const $form = document.querySelector("form");
   const jsConfetti = new JSConfetti();
@@ -8,6 +9,5 @@ const init = () => {
     jsConfetti.addConfetti();
   });
 }
-
 
 init();
