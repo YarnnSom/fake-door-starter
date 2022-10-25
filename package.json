@@ -22,5 +22,8 @@
   "homepage": "https://github.com/YarnnSom/fake-door-starter#readme",
   "dependencies": {
     "js-confetti": "^0.11.0"
+  },
+  "devDependencies": {
+    "vite": "^3.1.8"
   }
 }
